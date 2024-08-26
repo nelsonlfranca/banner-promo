@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="flex w-full">
+    <div className="flex flex-wrap">
       
       {/* Moeda à esquerda */}
       <img
@@ -10,7 +10,7 @@ export default function Banner() {
       />
 
       {/* Seção Branca */}
-      <div className="bg-white w-[40%] sm:h-full flex flex-col items-center justify-center p-4 sm:p-8">
+      <div className="bg-white w-full sm:w-[40%] flex flex-col items-center justify-center p-4 sm:p-8">
           
         <div className="py-5 flex flex-col items-center text-center sm:text-left">
           <h1 className="text-2xl sm:text-7xl font-bold text-black leading-tight">
@@ -34,7 +34,7 @@ export default function Banner() {
        </div>
         
       {/* Seção Azul */}
-      <div className="bg-gradient-to-r from-[#19136d] to-[#0201f3] w-[60%] sm:w-full flex-1 flex flex-col items-center p-4 sm:p-8">
+      <div className="bg-gradient-to-r from-[#19136d] to-[#0201f3] w-full sm:w-[40%] flex-1 flex flex-col items-center p-4 sm:p-8">
         
         <div>
           <p className="text-white text-3xl pt-10 pr-10">
