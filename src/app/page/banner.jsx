@@ -1,7 +1,7 @@
 'use client'
 import {useRouter} from 'next/navigation'
 
-export default function BannerPromo10off() {
+export default function BannerPremiumPackagePromotion() {
   const router = useRouter ()
 
   const handleClick = () => {
@@ -48,7 +48,7 @@ export default function BannerPromo10off() {
       <div className="bg-gradient-to-r from-[#19136d] to-[#0201f3] flex flex-1">
         <div className="relative h-full w-full overflow-hidden">
           <div className="text-center items-center px-2 mt-10">
-            <p className="text-2xl">
+            <p className="text-2xl text-white">
               Prepare seu escritório para entrar em <br />
               uma nova fase com o <strong>Pacote Premium!</strong>
             </p>
