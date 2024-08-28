@@ -1,7 +1,7 @@
 'use client'
 import {useRouter} from 'next/navigation'
 
-export default function Banner() {
+export default function BannerPromo10off() {
   const router = useRouter ()
 
   const handleClick = () => {
@@ -26,6 +26,7 @@ export default function Banner() {
           className="mt-4 bg-gradient-to-r from-[#19136d] to-[#0201f3] text-sm text-white font-semibold py-3 px-6 rounded-lg">
             QUERO MUDAR PARA O PREMIUM
           </button>
+          {/* Moeda da esquerda */}
           <img
           src="https://facilita-landing-page.s3.sa-east-1.amazonaws.com/images/moeda-dourada.png"
           className="rotate-[17deg] hidden absolute lg:block h-[50%] left-[-8%] top-[47%] blur-[1.5px]"
@@ -59,6 +60,8 @@ export default function Banner() {
             </p>
             
           </div>
+
+          {/* Moedas da direita */}
           <div>
             <img
               src="https://facilita-landing-page.s3.sa-east-1.amazonaws.com/images/moeda-dourada.png"
